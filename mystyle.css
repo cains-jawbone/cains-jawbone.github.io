@@ -1,0 +1,30 @@
+body {
+  font-family: Garamond;
+  font-size: 14.66px;
+  margin: auto;
+}
+
+.page {
+  padding: 15mm;
+  width: 105mm;
+  height: auto;
+  margin: auto;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.page_number {
+
+}
+
+.page_story {
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.poem {
+  text-align: left;
+  text-indent: 10mm;
+  font-style: italic;
+}
