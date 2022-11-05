@@ -25,6 +25,7 @@ body {
 
 .poem {
   text-align: left;
-  text-indent: 10mm;
+  text-align-last: left;
+  padding-left: 10mm;
   font-style: italic;
 }
