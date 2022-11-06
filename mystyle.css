@@ -62,3 +62,23 @@ header li a {
 header li a:hover {
     background-color: #111;
 }
+
+.highlight {
+  background-color: yellow;
+}
+
+.highlight .comment {
+  visibility: hidden;
+  width: 250px;
+  background-color: LemonChiffon;
+  text-align: left;
+  text-align-last: left;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  font-style: normal;
+}
+
+.highlight:hover .comment {
+  visibility: visible;
+}
